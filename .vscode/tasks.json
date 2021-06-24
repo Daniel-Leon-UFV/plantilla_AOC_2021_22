@@ -8,6 +8,7 @@
             "args": [
                 "--lst=${fileDirname}/${fileBasenameNoExtension}.lst",
                 "--sld=${fileDirname}/${fileBasenameNoExtension}.sld",
+                "--raw=${fileDirname}/${fileBasenameNoExtension}.bin",
                 "--fullpath",
                 "${file}"
             ],
